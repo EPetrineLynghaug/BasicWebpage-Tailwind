@@ -696,6 +696,16 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-gray-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+}
+
+.bg-gray-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-50 {
   --tw-bg-opacity: 0.5;
 }
@@ -787,6 +797,31 @@ video {
   --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+/* Custom overrides */
+
+.bg-blue-500 {
+  background-color: #1d4ed8;
+  /* Override Tailwind's default blue color */
+}
+
+/* Custom button styling */
+
+.btn-custom {
+  padding: 0.75rem 1.5rem;
+  background-color: #10b981;
+  /* Custom green */
+  color: white;
+  font-weight: bold;
+  border-radius: 0.5rem;
+}
+
+/* Hover effect */
+
+.btn-custom:hover {
+  background-color: #059669;
+  /* Darker green on hover */
 }
 
 .hover\:bg-blue-600:hover {

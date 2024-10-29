@@ -159,4 +159,4 @@ npm run build:css
 # Watch CSS for changes
 ```bash
 npm run watch:css
-```bash
+```

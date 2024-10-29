@@ -2,3 +2,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Custom overrides */
+.bg-blue-500 {
+    background-color: #1d4ed8; /* Override Tailwind's default blue color */
+  }
+/* Custom button styling */
+.btn-custom {
+    padding: 0.75rem 1.5rem;
+    background-color: #10b981; /* Custom green */
+    color: white;
+    font-weight: bold;
+    border-radius: 0.5rem;
+  }
+  /* Hover effect */
+  .btn-custom:hover {
+    background-color: #059669; /* Darker green on hover */
+  }
